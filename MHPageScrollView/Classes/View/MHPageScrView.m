@@ -49,7 +49,7 @@
     [self setupScrollViewIsUrl:isUrl placeImage:(UIImage *)placeImage];
     
     CGFloat pageH = 80.0*fit_rate_w;
-    [self setupPageControllerWithFrame:CGRectMake(0, CGRectGetMaxY(self.scrollView.frame) - pageH*1.4, KScreenW, pageH) currentPageIndicatorTintColor:MHColor_(246) pageIndicatorTintColor:[UIColor lightGrayColor]];
+    [self setupPageControllerWithFrame:CGRectMake(0, CGRectGetHeight(self.scrollView.frame) - 20, KScreenW, pageH) currentPageIndicatorTintColor:MHColor_(246) pageIndicatorTintColor:[UIColor lightGrayColor]];
 }
 
 /**
