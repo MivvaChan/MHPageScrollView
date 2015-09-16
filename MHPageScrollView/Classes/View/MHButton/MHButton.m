@@ -21,10 +21,6 @@
         self.border = border;
         self.midBorder = midBorder;
         self.titleLabelScale = titleLabelScale;
-        int scale = self.titleLabelScale;
-        if (scale == 1) {
-            self.midBorder = 0.0f;
-        }
    }
     return self;
 }
@@ -177,6 +173,10 @@
     }
     if (_titleLabelScale < 0.0f) {
         _titleLabelScale = 0.0f;
+    }
+    int scale = titleLabelScale;
+    if (scale == 1) {
+        _midBorder = 0.0f;
     }
 }
 
