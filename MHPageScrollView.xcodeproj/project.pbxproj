@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD0E3D5A1BA8A4A0005DF971 /* MHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0E3D571BA8A4A0005DF971 /* MHButton.m */; };
-		BD0E3D5B1BA8A4A0005DF971 /* MHToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0E3D591BA8A4A0005DF971 /* MHToolbar.m */; };
+		BD0306B61BA91EBB00140CA3 /* MHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0306B31BA91EBB00140CA3 /* MHButton.m */; };
+		BD0306B71BA91EBB00140CA3 /* MHToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0306B51BA91EBB00140CA3 /* MHToolbar.m */; };
 		BD0E3D5E1BA8C306005DF971 /* UIImageView+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0E3D5D1BA8C306005DF971 /* UIImageView+MH.m */; };
 		BDF682F51BA8888700F05B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF682F31BA8888700F05B1F /* Main.storyboard */; };
 		BDF682F71BA8888700F05B1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF682F61BA8888700F05B1F /* Images.xcassets */; };
@@ -48,10 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD0E3D561BA8A4A0005DF971 /* MHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHButton.h; sourceTree = "<group>"; };
-		BD0E3D571BA8A4A0005DF971 /* MHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHButton.m; sourceTree = "<group>"; };
-		BD0E3D581BA8A4A0005DF971 /* MHToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHToolbar.h; sourceTree = "<group>"; };
-		BD0E3D591BA8A4A0005DF971 /* MHToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHToolbar.m; sourceTree = "<group>"; };
+		BD0306B21BA91EBB00140CA3 /* MHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHButton.h; sourceTree = "<group>"; };
+		BD0306B31BA91EBB00140CA3 /* MHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHButton.m; sourceTree = "<group>"; };
+		BD0306B41BA91EBB00140CA3 /* MHToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHToolbar.h; sourceTree = "<group>"; };
+		BD0306B51BA91EBB00140CA3 /* MHToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHToolbar.m; sourceTree = "<group>"; };
 		BD0E3D5C1BA8C306005DF971 /* UIImageView+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MH.h"; sourceTree = "<group>"; };
 		BD0E3D5D1BA8C306005DF971 /* UIImageView+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MH.m"; sourceTree = "<group>"; };
 		BDF682E61BA8888700F05B1F /* MHPageScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHPageScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,13 +124,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD0E3D551BA8A4A0005DF971 /* MHButton */ = {
+		BD0306B11BA91EBB00140CA3 /* MHButton */ = {
 			isa = PBXGroup;
 			children = (
-				BD0E3D561BA8A4A0005DF971 /* MHButton.h */,
-				BD0E3D571BA8A4A0005DF971 /* MHButton.m */,
-				BD0E3D581BA8A4A0005DF971 /* MHToolbar.h */,
-				BD0E3D591BA8A4A0005DF971 /* MHToolbar.m */,
+				BD0306B21BA91EBB00140CA3 /* MHButton.h */,
+				BD0306B31BA91EBB00140CA3 /* MHButton.m */,
+				BD0306B41BA91EBB00140CA3 /* MHToolbar.h */,
+				BD0306B51BA91EBB00140CA3 /* MHToolbar.m */,
 			);
 			path = MHButton;
 			sourceTree = "<group>";
@@ -224,6 +224,7 @@
 		BDF683171BA8892600F05B1F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD0306B11BA91EBB00140CA3 /* MHButton */,
 				BD0E3D5C1BA8C306005DF971 /* UIImageView+MH.h */,
 				BD0E3D5D1BA8C306005DF971 /* UIImageView+MH.m */,
 				BDF6831B1BA889B100F05B1F /* MHPageScrView.h */,
@@ -235,7 +236,6 @@
 		BDF6831F1BA89B1400F05B1F /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				BD0E3D551BA8A4A0005DF971 /* MHButton */,
 				BDF683201BA89B4E00F05B1F /* SDWebImage */,
 			);
 			path = Lib;
@@ -387,7 +387,6 @@
 				BDF6834F1BA89B4E00F05B1F /* UIImage+MultiFormat.m in Sources */,
 				BDF6834A1BA89B4E00F05B1F /* SDWebImageDownloaderOperation.m in Sources */,
 				BDF683181BA8892600F05B1F /* MHViewController.m in Sources */,
-				BD0E3D5A1BA8A4A0005DF971 /* MHButton.m in Sources */,
 				BDF683471BA89B4E00F05B1F /* SDWebImageCompat.m in Sources */,
 				BDF6834E1BA89B4E00F05B1F /* UIImage+GIF.m in Sources */,
 				BDF6834C1BA89B4E00F05B1F /* SDWebImagePrefetcher.m in Sources */,
@@ -396,7 +395,7 @@
 				BDF683501BA89B4E00F05B1F /* UIImage+WebP.m in Sources */,
 				BDF683521BA89B4E00F05B1F /* UIImageView+WebCache.m in Sources */,
 				BDF683491BA89B4E00F05B1F /* SDWebImageDownloader.m in Sources */,
-				BD0E3D5B1BA8A4A0005DF971 /* MHToolbar.m in Sources */,
+				BD0306B71BA91EBB00140CA3 /* MHToolbar.m in Sources */,
 				BD0E3D5E1BA8C306005DF971 /* UIImageView+MH.m in Sources */,
 				BDF683531BA89B4E00F05B1F /* UIView+WebCacheOperation.m in Sources */,
 				BDF6834D1BA89B4E00F05B1F /* UIButton+WebCache.m in Sources */,
@@ -405,6 +404,7 @@
 				BDF683191BA8892600F05B1F /* AppDelegate.m in Sources */,
 				BDF6834B1BA89B4E00F05B1F /* SDWebImageManager.m in Sources */,
 				BDF683481BA89B4E00F05B1F /* SDWebImageDecoder.m in Sources */,
+				BD0306B61BA91EBB00140CA3 /* MHButton.m in Sources */,
 				BDF683451BA89B4E00F05B1F /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
