@@ -10,9 +10,6 @@
 
 @interface MHPageScrView : UIView
 @property (strong, nonatomic) UIPageControl *pageControl;
-@property (strong, nonatomic) UIColor *currentPageIndicatorTintColor;
-@property (strong, nonatomic) UIColor *pageIndicatorTintColor;
-@property (assign, nonatomic) CGRect pageControlFrame;
 
 /**
  *  添加轮播视图-本地加载图片
