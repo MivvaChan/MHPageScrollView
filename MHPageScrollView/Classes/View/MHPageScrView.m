@@ -71,14 +71,14 @@
     for (int i = 0; i<_images.count; i++) {
         UIImageView *imageView = [[UIImageView alloc] init];
         
-        // 设置frame
+        // 3.1.设置frame
         CGFloat imageX = i * imageW;
         imageView.frame = CGRectMake(imageX, imageY, imageW, imageH);
         
-        // 设置图片
-        if (isUrl) {
+        // 3.2.设置图片
+        if (isUrl) { // 网络下载
             [imageView downloadImage:_images[i] place:placeImage];
-        } else {
+        } else { // 本地加载
             imageView.image = [UIImage imageNamed:_images[i]];
         }
         

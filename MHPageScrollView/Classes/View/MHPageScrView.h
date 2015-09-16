@@ -17,16 +17,21 @@
 /**
  *  添加轮播视图-本地加载图片
  */
-- (instancetype)initWithFrame:(CGRect)frame localImages:(NSArray*)images;
+- (instancetype)initWithFrame:(CGRect)frame
+                  localImages:(NSArray*)images;
 
 /**
  *  添加轮播视图-网络下载图片
  */
-- (instancetype)initWithFrame:(CGRect)frame imageUrls:(NSArray*)imageUrls placeImage:(UIImage *)placeImage;
+- (instancetype)initWithFrame:(CGRect)frame
+                    imageUrls:(NSArray*)imageUrls
+                   placeImage:(UIImage *)placeImage;
 
 /**
- *  添加pageControl
+ *  自定义pageControl
  */
-- (void)setupPageControlFrame:(CGRect)frame currentPageIndicatorTintColor:(UIColor *)currentPageIndicatorTintColor pageIndicatorTintColor:(UIColor *)pageIndicatorTintColor;
+- (void)setupPageControlFrame:(CGRect)frame
+currentPageIndicatorTintColor:(UIColor *)currentPageIndicatorTintColor
+       pageIndicatorTintColor:(UIColor *)pageIndicatorTintColor;
 
 @end

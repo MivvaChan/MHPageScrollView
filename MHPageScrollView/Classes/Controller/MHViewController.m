@@ -53,7 +53,7 @@
         [_pageScrView2 removeFromSuperview];
         [self.view addSubview:_pageScrView1];
         
-        // 自定义分页指示器
+        // 自定义分页指示器（如果不自定，则使用默认的）
         CGFloat w = 50;
         [self.pageScrView1 setupPageControlFrame:CGRectMake(KScreenW - w - 5, kScrollViewH - 10*1.4, w, 10) currentPageIndicatorTintColor:[UIColor redColor] pageIndicatorTintColor:[UIColor groupTableViewBackgroundColor]];
     
